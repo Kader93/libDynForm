@@ -5,3 +5,5 @@ Ce dossier comprend une interface et les classes associées à l'interface qui c
 DynamicFormService est le service qui permet d'instancier les DynamicForm.
 
 DynamicForm est l'objet retourner par le DynamicFormService via la fonction get("name"), il peut s'éditer et éffectuer une validation de donnée.
+
+Le DynamicFormController et le dossier "view" ne sont là que pour faire des tests.
