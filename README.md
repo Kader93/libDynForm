@@ -1,5 +1,5 @@
 FormConfigManager (Storage manager)
- ============
+============
 
     Qui nous donne accès aux stockages des fichiers de configuration de formulaire.
 Ce dossier comprend une interface et les classes associées à l'interface qui correspondent aux différents types de stockage.
