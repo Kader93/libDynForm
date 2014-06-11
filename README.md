@@ -1,4 +1,4 @@
-FormConfigManager (Storage manager):
+FormConfigManager (Storage manager)
  ============
 
     Qui nous donne accès aux stockages des fichiers de configuration de formulaire.
