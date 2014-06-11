@@ -40,16 +40,16 @@ class DynamicFormService
         $getDF = $this->has($name);
         if ($getDF !== FALSE){
         $form = new DynamicForm($name);
-            foreach ($this->arrayConfig[0][$name] as $element)
+            foreach ($this->arrayConfig[$name] as $element)
             {
                 $form->addElement($element);
             }
-        $form->setInputs($this->arrayFilter[0][$name]);
+        $form->setInputs($this->arrayFilter[$name]);
         return $form;
         }
         else {
             $form = new DynamicForm($name);
-            foreach ($this->arrayConfig[0]['default'] as $element)
+            foreach ($this->arrayConfig['default'] as $element)
             {
                 $form->addElement($element);
             }
@@ -61,7 +61,7 @@ class DynamicFormService
     public function has($name)
     {
         $this->initArrayConfig();
-        if(array_key_exists($name, $this->arrayConfig[0])){
+        if(array_key_exists($name, $this->arrayConfig)){
             return $name;
         }
 

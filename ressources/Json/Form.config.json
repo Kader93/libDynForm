@@ -1,5 +1,5 @@
-[
-    {"membre": [
+{
+    "membre": [
         {"name":"pseudo","type":"text","options":{"label":"Pseudonyme"}},
         {"name":"mdp","type":"password","options":{"label":"Password"}},
         {"name":"mdpconfirm","type":"password","options":{"label":"Confirm Password"}},
@@ -9,10 +9,9 @@
         {"name":"description","type":"textarea","options":{"label":"Description a ajouter"}},
         {"name":"pays","type":"Select","options":{"label":"Selection Pays","value_options":["France","Allemagne","Italie"]}},
         {"name":"age","type":"text","options":{"label":"Age"}},
-        {"name":"submit","type":"submit","attributes":{"value":"Go","id":"submitbutton"}}
-    ]},
+        {"name":"submit","type":"submit","attributes":{"value":"Go","id":"submitbutton"}
+        }],
 
-    {"default": [
-        {"name":"submit","type":"submit","attributes":{"value":"Go","id":"submitbutton"}}
-    ]}
-]
+    "default": [
+        {"name":"submit","type":"submit","attributes":{"value":"Go","id":"submitbutton"}}]
+}
