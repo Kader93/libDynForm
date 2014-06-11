@@ -10,5 +10,9 @@
         {"name":"pays","type":"Select","options":{"label":"Selection Pays","value_options":["France","Allemagne","Italie"]}},
         {"name":"age","type":"text","options":{"label":"Age"}},
         {"name":"submit","type":"submit","attributes":{"value":"Go","id":"submitbutton"}}
+    ]},
+
+    {"default": [
+        {"name":"submit","type":"submit","attributes":{"value":"Go","id":"submitbutton"}}
     ]}
 ]

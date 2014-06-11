@@ -47,7 +47,15 @@ class DynamicFormService
         $form->setInputs($this->arrayFilter[0][$name]);
         return $form;
         }
-        else {return FALSE;}
+        else {
+            $form = new DynamicForm($name);
+            foreach ($this->arrayConfig[0]['default'] as $element)
+            {
+                $form->addElement($element);
+            }
+            return $form;
+
+        }
     }
 
     public function has($name)

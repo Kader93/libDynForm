@@ -8,7 +8,8 @@ Ce dossier comprend une interface et les classes associées à l'interface qui c
 DynamicFormService
 ============
 
-    C'est le service qui permet d'instancier les DynamicForm.
+    C'est le service qui permet d'instancier le DynamicForm.
+Il dépend du storage Manager pour s'instancier parce qu'il utilise les fichiers de configuration pour instancier le DynamicForm.
 
 DynamicForm
 ============
